@@ -102,16 +102,16 @@ KalyChain Deployments
 -----------
 ### Testnet
 
-Create2 deployer contract 0x4e59b44847b379578588920ca78fbf26c0b4956c
-SimulateTxAccessor: 0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da
-GnosisSafeProxyFactory: 0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2 
-DefaultCallbackHandler: 0x1AC114C2099aFAf5261731655Dc6c306bFcd4Dbd
-CompatibilityFallbackHandler: 0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4 
-CreateCall: 0x7cbB62EaA69F79e6873cD1ecB2392971036cFAa4
-MultiSend: 0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761
-MultiSendCallOnly: 0x40A2aCCbd92BCA938b02010E17A5b8929b49130D
-GnosisSafeL2: 0x3E5c63644E683549055b9Be8653de26E0B4CD36E
-GnosisSafe: 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552
+Create2 Deployer: [0x4e59b44847b379578588920ca78fbf26c0b4956c](https://testnet.kalyscan.io/address/0x4e59b44847b379578588920ca78fbf26c0b4956c)
+SimulateTxAccessor: [0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da](https://testnet.kalyscan.io/address/0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da)
+GnosisSafeProxyFactory: [0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2](https://testnet.kalyscan.io/address/0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2) 
+DefaultCallbackHandler: [0x1AC114C2099aFAf5261731655Dc6c306bFcd4Dbd](https://testnet.kalyscan.io/address/0x1AC114C2099aFAf5261731655Dc6c306bFcd4Dbd)
+CompatibilityFallbackHandler: [0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4](https://testnet.kalyscan.io/address/0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4) 
+CreateCall: [0x7cbB62EaA69F79e6873cD1ecB2392971036cFAa4](https://testnet.kalyscan.io/address/0x7cbB62EaA69F79e6873cD1ecB2392971036cFAa4)
+MultiSend: [0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761](https://testnet.kalyscan.io/address/0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761)
+MultiSendCallOnly: [0x40A2aCCbd92BCA938b02010E17A5b8929b49130D](https://testnet.kalyscan.io/address/0x40A2aCCbd92BCA938b02010E17A5b8929b49130D)
+GnosisSafeL2: [0x3E5c63644E683549055b9Be8653de26E0B4CD36E](https://testnet.kalyscan.io/address/0x3E5c63644E683549055b9Be8653de26E0B4CD36E)
+GnosisSafe: [0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552](https://testnet.kalyscan.io/address/0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552)
 
 Security and Liability
 ----------------------
