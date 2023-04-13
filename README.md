@@ -1,4 +1,4 @@
-Gnosis Safe Tasks
+Gnosis Safe Tasks for KalyChain
 =================
 
 Install
@@ -20,8 +20,7 @@ Quick Start
 Create `.env` file to use the commands (see `.env.sample` for more info):
 
 - `NETWORK` - Network that should be used (e.g. `rinkeby`, `mainnet` or `custom`)
-- `PK` or `MNEMONIC`- Credentials for the account that should be used
-- `INFURA`- For network that use Infura based RPC
+- `PK` - Credentials for the account that should be used
 - `NODE`- RPC node for `custom` network (optional)
 
 ### Help
@@ -39,7 +38,8 @@ Creates and setups a Safe proxy via the proxy factory. All parameters of the Saf
 #### Example
 This will deploy a Safe that uses the first imported account as an owner and set the threshold to 1.
 ```bash
-yarn safe create
+yarn safe create --network custom --singleton "<YOUR-GnosisSafeL2-ADDRESS-HERE>" --factory "<YOUR-GnosisSafeProxyFactory-ADDRESS-HERE>"
+
 ```
 
 ### Safe Info
@@ -98,6 +98,20 @@ Displays the transaction history of a Safe based on events
 ```bash
 yarn safe history <address>
 ```
+KalyChain Deployments
+-----------
+### Testnet
+
+Create2 deployer contract 0x4e59b44847b379578588920ca78fbf26c0b4956c
+SimulateTxAccessor: 0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da
+GnosisSafeProxyFactory: 0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2 
+DefaultCallbackHandler: 0x1AC114C2099aFAf5261731655Dc6c306bFcd4Dbd
+CompatibilityFallbackHandler: 0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4 
+CreateCall: 0x7cbB62EaA69F79e6873cD1ecB2392971036cFAa4
+MultiSend: 0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761
+MultiSendCallOnly: 0x40A2aCCbd92BCA938b02010E17A5b8929b49130D
+GnosisSafeL2: 0x3E5c63644E683549055b9Be8653de26E0B4CD36E
+GnosisSafe: 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552
 
 Security and Liability
 ----------------------
@@ -106,3 +120,4 @@ All contracts are WITHOUT ANY WARRANTY; without even the implied warranty of MER
 License
 -------
 All smart contracts are released under LGPL-3.0
+

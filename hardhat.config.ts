@@ -105,6 +105,10 @@ if (NODE_URL) {
   userConfig.networks!!.custom = {
     ...sharedNetworkConfig,
     url: NODE_URL,
+	chainId: 3889,
+    gas: 3000000,
+    gasPrice: 8000000000,
+    accounts: [`${PK}`, ],
   }
 }
 export default userConfig
